@@ -20,25 +20,37 @@ body{
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #05583b;
     padding: 0 0.5rem;
     position: fixed;
     width: 100%;
     box-shadow: 0 1px 1px #3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 h1 {
     font-family: roboto slab, sans-serif;
+    color: #f7f1f1
+}
+
+#menu {
+    list-style-type: none;
+    letter-spacing: 2px;
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: #ffffff;
     /* Make main take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #05583b;
+    color: #ffffff;
 }
