@@ -61,6 +61,7 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    color: #ffffff;
 }
 
 #nav-toggle {
@@ -82,8 +83,12 @@ main {
 /* Footer */
 footer {
     background-color: #05583b;
+}
+
+footer a {
     color: #ffffff;
 }
+
 
 @media screen and (min-width: 768px) {
 
@@ -106,5 +111,15 @@ footer {
     
     .nav-toggle-label {
             display: none;
+    }
+
+    #logo {
+        font-size: 270%;
+        line-height: 65px;
+    }
+
+    /* Main */
+    main{
+        margin-top: 75px;
     }
 }
