@@ -24,12 +24,16 @@ header {
     padding: 0 0.5rem;
     position: fixed;
     width: 100%;
-    box-shadow: 0 1px 1px #3a3a3a;
+    box-shadow: 0 4px 4px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 80%;
 }
 
 h1 {
@@ -45,6 +49,26 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
+    background-color:#05583b;
+    width: 100%;
+    left: 0;
+    padding: 0 0.5rem;
+    box-shadow: 0 4px 4px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1rem;
 }
 
 /* Main content */
