@@ -61,7 +61,6 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-    color: #ffffff;
 }
 
 #nav-toggle {
@@ -70,6 +69,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
+    color: #ffffff;
 }
 
 /* Main content */
@@ -83,10 +83,20 @@ main {
 /* Footer */
 footer {
     background-color: #05583b;
+    box-shadow: 0 -4px 4px #3a3a3a;
+    height: 30px;
 }
 
 footer a {
     color: #ffffff;
+}
+
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
 }
 
 
