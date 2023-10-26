@@ -33,7 +33,7 @@ header {
 header a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 h1 {
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 /* Main content */
