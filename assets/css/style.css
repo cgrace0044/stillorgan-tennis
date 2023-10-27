@@ -83,7 +83,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background-color: red;
+    background: url(../images/hero-image.jpeg) no-repeat center center cover;
 }
 
 /* Footer */
