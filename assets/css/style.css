@@ -76,14 +76,28 @@ nav {
 main {
     /* Make main take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 38px;
 }
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 300px;
     width: 100%;
-    background: url(../images/hero-image.jpeg) no-repeat center center cover;
+}
+
+#hero-image {
+    height: 200px;
+    width: 100%;
+    background: url(../images/heroimage.webp) no-repeat center center/cover;
+}
+
+#hero-text {
+    height: 170px;
+    width: 100%;
+    background-color:#05583b;
+    color:#ffffff;
+    text-align: center;
+    font-family: roboto slab, sans-serif;
 }
 
 /* Footer */
