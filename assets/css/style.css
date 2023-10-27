@@ -109,14 +109,12 @@ main {
     font-size: 0.8rem;
 }
 
-
 br {
     content: "";
     margin: 2em;
     display: block;
     font-size: 24%;
 }
-
 
 .btn {
     display: inline-block;
@@ -130,6 +128,15 @@ br {
     background-color: white;
     text-decoration: none;
 }
+
+/* Facilities section */
+#facilities {
+    box-sizing: border-box;
+    border-style: solid #3a3a3a;
+    background-color: #36013f;
+}
+
+
 
 /* Footer */
 footer {
