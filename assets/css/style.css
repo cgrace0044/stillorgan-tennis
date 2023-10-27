@@ -88,7 +88,7 @@ main {
 #hero-image {
     height: 200px;
     width: 100%;
-    background: url(../images/heroimage.webp) no-repeat center center/cover;
+    background: url(../images/hero-image\ 2.webp) no-repeat center center/cover;
 }
 
 #hero-text {
