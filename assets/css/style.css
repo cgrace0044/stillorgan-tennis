@@ -130,10 +130,17 @@ br {
 }
 
 /* Facilities section */
-#facilities {
+#on-offer {
     box-sizing: border-box;
     border-style: solid #3a3a3a;
-    background-color: #36013f;
+    background-color: rgba(54, 1, 63, 1);
+    color: #ffffff;
+    padding: 0.75rem;
+    font-size: 0.75rem;
+}
+
+ul {
+    list-style-type: none;
 }
 
 
