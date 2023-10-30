@@ -173,14 +173,13 @@ ul {
     padding: 20px;
 }
 
-#enquire-about-membership h2{
-    text-align: center;
-}
-
 .input-field {
     width: 100%;
     border-radius: 2px;
-    background: transparent;
+}
+
+.input-field label{
+    display: block;
 }
 
 /* Footer */
