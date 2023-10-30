@@ -172,7 +172,16 @@ footer a {
     padding: 5px;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 
+}    
+
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -202,7 +211,20 @@ footer a {
     }
 
     /* Main */
-    main{
+    main {
         margin-top: 65px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px) {
+/* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
