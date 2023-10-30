@@ -41,7 +41,44 @@
     </header>
 
     <!-- Main Content -->
-    <main>Main content</main>
+    <main id="enquire-about-membership" >
+        <form method="get" action="response.html">
+            <h2>Enquire About Membership</h2>
+            <div class="input-field">
+                <label for="fname">First name</label>
+                <input id="fname" type="text" placeholder=" " aria-label="First name" required />
+            </div>
+            <div class="input-field">
+                <label for="lname">Last name</label>
+                <input id="lname" type="text" placeholder=" " aria-label="Last name" required />  
+            </div>
+            <div class="input-field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" placeholder=" " aria-label="Email address" required />
+            </div>
+            <h3>What membership are you interested in?</h3>
+            <div class="checkbox-field">
+                <div class="checkbox">
+                    <label for="family">Family</label>
+                    <input type="radio" id="family" name="membership_preference" value="family" required
+                        aria-label="Family" />
+                </div>
+                <div class="checkbox">
+                    <label for="senior">Senior</label>
+                    <input type="radio" id="senior" name="membership_preference" value="senior" aria-label="senior" />
+                </div>
+                <div class="checkbox">
+                    <label for="junior">Junior</label>
+                    <input type="radio" id="junior" name="membership_preference" value="junior" aria-label="junior" />
+                </div>
+                <div class="checkbox">
+                    <label for="student">Student</label>
+                    <input type="radio" id="student" name="membership_preference" value="student" aria-label="student" />
+                </div>
+            </div>
+            <input type="submit" value="Send form" aria-label="Submit form" />
+        </form>
+    </main>
 
     <!-- Footer -->
     <footer>
