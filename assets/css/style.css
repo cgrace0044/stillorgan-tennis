@@ -130,18 +130,45 @@ br {
 }
 
 /* About Section */
+#about-section {
+  width: 100%;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+#about-us-heading {
+    padding: 5px;
+}
+
+#about-section img {
+  width: 100%;
+  border-radius: 5px;
+  max-height: 300px;
+  max-width: 300px;
+  align-items: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-direction: row;
+}
+
 .right-about {
-    height: 400px;
-    width: 100%;
-    background-color: #ffffff;
-    padding-top: 5px;
-    color: #3a3a3a;
-    font-size: 80%;
-    text-align: left;
+  text-align: left;
+  padding: 5px;
+  font-size: 80%;
+  line-height: 1.5;
+}
+
+.right-about div h3 {
+  font-size: 130%;
 }
 
 .right-about div {
-    padding: 5px;
+  width: 90%;
+  padding: 5px;
 }
 
 /* Facilities section */
@@ -258,6 +285,18 @@ footer a {
         margin-top: 65px;
     }
 
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .left-about {
+        width: 100%;
+    }
+
+    .right-about {
+        width: 100%;
+    }
+  
     /* Gallery */
     #photos {
         column-count: 3;
