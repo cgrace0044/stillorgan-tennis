@@ -129,6 +129,19 @@ br {
     text-decoration: none;
 }
 
+/* About Section */
+#about-section {
+    width: 100%;
+    margin: 10px;
+    padding-top: 15px;
+}
+
+#about-section img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.36);
+}
+
 /* Facilities section */
 #on-offer {
     box-sizing: border-box;
