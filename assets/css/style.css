@@ -130,16 +130,18 @@ br {
 }
 
 /* About Section */
-#about-section {
+.right-about {
+    height: 400px;
     width: 100%;
-    margin: 10px;
-    padding-top: 15px;
+    background-color: #ffffff;
+    padding-top: 5px;
+    color: #3a3a3a;
+    font-size: 80%;
+    text-align: left;
 }
 
-#about-section img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 9px rgba(0, 0, 0, 0.36);
+.right-about div {
+    padding: 5px;
 }
 
 /* Facilities section */
