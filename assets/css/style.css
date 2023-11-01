@@ -198,6 +198,12 @@ br {
 #photos img {
     width: 100%;
     line-height: 1em;
+    filter: grayscale(100%);
+    transition: filter 2s;
+}
+
+#photos img:hover {
+    filter: none;
 }
 
 #photos {
