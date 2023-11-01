@@ -131,7 +131,7 @@ br {
 
 /* About Section */
 #about-section {
-    width: 100%;
+    width: 50%;
     margin: 10px;
     padding-top: 5px;
 }
@@ -141,7 +141,7 @@ br {
 }
 
 #about-section img {
-    width: 100%;
+    width: 50%;
     border-radius: 5px;
     max-height: 300px;
     max-width: 300px;
@@ -152,6 +152,7 @@ br {
     display: flex;
     align-items: left;
     justify-content: space-between;
+    flex-wrap: wrap;
     flex-direction: row;
 }
 
@@ -179,6 +180,7 @@ br {
 #our-team {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .card {
