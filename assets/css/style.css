@@ -334,6 +334,12 @@ footer a {
         width: 100%;
     }
 
+    #meet-our-team {
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+
     /* Gallery */
     #photos {
         column-count: 3;
