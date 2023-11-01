@@ -81,14 +81,14 @@ main {
 
 /* Hero section */
 #hero {
-    height: 300px;
+    height: 500px;
     width: 100%;
 }
 
 #hero-image {
-    height: 200px;
+    height: 400px;
     width: 100%;
-    background: url(../images/hero-image\ 2.webp) no-repeat center center/cover;
+    background: url(../images/hero-image-stillorgan.jpg) no-repeat center center/cover;
 }
 
 #hero-text {
