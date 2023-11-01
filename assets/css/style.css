@@ -132,12 +132,12 @@ br {
 /* About Section */
 #about-section {
     width: 100%;
-    margin: 5px;
+    margin: 10px;
     padding-top: 5px;
 }
 
-#about-us-heading {
-    padding: 5px;
+.h2-heading {
+    padding: 10px;
 }
 
 #about-section img {
@@ -151,13 +151,13 @@ br {
 .about-container {
     display: flex;
     align-items: left;
-    justify-content: left;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .right-about {
     text-align: left;
-    padding: 5px;
+    padding: 10px;
     font-size: 80%;
     line-height: 1.5;
 }
@@ -168,7 +168,11 @@ br {
 
 .right-about div {
     width: 90%;
-    padding: 5px;
+    padding: 10px;
+}
+
+#facilities {
+    list-style-type: none;
 }
 
 /* Meet our team section */
@@ -186,20 +190,6 @@ br {
 
 .card img {
     border-radius: 5px 5px 0 0;
-}
-
-/* Facilities section */
-#on-offer {
-    box-sizing: border-box;
-    border-style: solid #3a3a3a;
-    background-color: rgba(54, 1, 63, 1);
-    color: #ffffff;
-    padding: 0.75rem;
-    font-size: 0.75rem;
-}
-
-ul {
-    list-style-type: none;
 }
 
 /* Gallery page */
