@@ -49,7 +49,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color:#05583b;
+    background-color: #05583b;
     width: 100%;
     left: 0;
     padding: 0 0.5rem;
@@ -94,9 +94,9 @@ main {
 #hero-text {
     height: 100px;
     width: 100%;
-    background-color:#05583b;
+    background-color: #05583b;
     padding-top: 5px;
-    color:#ffffff;
+    color: #ffffff;
     text-align: center;
     font-family: roboto slab, sans-serif;
 }
@@ -131,9 +131,9 @@ br {
 
 /* About Section */
 #about-section {
-  width: 100%;
-  margin: 5px;
-  padding-top: 5px;
+    width: 100%;
+    margin: 5px;
+    padding-top: 5px;
 }
 
 #about-us-heading {
@@ -141,34 +141,51 @@ br {
 }
 
 #about-section img {
-  width: 100%;
-  border-radius: 5px;
-  max-height: 300px;
-  max-width: 300px;
-  align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    max-height: 300px;
+    max-width: 300px;
+    align-items: center;
 }
 
 .about-container {
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  flex-direction: row;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
 }
 
 .right-about {
-  text-align: left;
-  padding: 5px;
-  font-size: 80%;
-  line-height: 1.5;
+    text-align: left;
+    padding: 5px;
+    font-size: 80%;
+    line-height: 1.5;
 }
 
 .right-about div h3 {
-  font-size: 130%;
+    font-size: 130%;
 }
 
 .right-about div {
-  width: 90%;
-  padding: 5px;
+    width: 90%;
+    padding: 5px;
+}
+
+/* Meet our team section */
+#our-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid #3a3a3a;
+    border-radius: 4px;
+    padding: .5rem;
+    width: 100%;
+}
+
+.card img {
+    border-radius: 5px 5px 0 0;
 }
 
 /* Facilities section */
@@ -220,7 +237,7 @@ ul {
     border-radius: 2px;
 }
 
-.input-field label{
+.input-field label {
     display: block;
 }
 
@@ -228,7 +245,7 @@ ul {
 footer {
     background-color: #05583b;
     box-shadow: 0 -4px 4px #3a3a3a;
-    }
+}
 
 footer a {
     color: #ffffff;
@@ -249,7 +266,7 @@ footer a {
         column-gap: 0;
     }
 
-}    
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -268,11 +285,11 @@ footer a {
     }
 
     #menu>li {
-            padding-left: 1rem;
+        padding-left: 1rem;
     }
-    
+
     .nav-toggle-label {
-            display: none;
+        display: none;
     }
 
     #logo {
@@ -296,7 +313,7 @@ footer a {
     .right-about {
         width: 100%;
     }
-  
+
     /* Gallery */
     #photos {
         column-count: 3;
@@ -305,7 +322,8 @@ footer a {
 
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
-/* Gallery */
+
+    /* Gallery */
     #photos {
         column-count: 4;
     }
