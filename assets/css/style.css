@@ -94,25 +94,17 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(44, 65, 56, 0.8);
+    background-color: rgba(33,41,48,0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    color:#ffffff;
 }
 
-#cover-text h2 {
-    color: white;
-    
-    font-size: 28px;
-    font-weight: 700;
-    text-align: center;
-    padding: 40px 10px;
-    margin: 0;
-}
 
 .btn {
     display: inline-block;
