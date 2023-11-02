@@ -18,6 +18,12 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+h3 {
+    font-family: roboto slab, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
 /* Header */
 header {
     background-color: #05583b;
@@ -105,7 +111,6 @@ main {
     color:#ffffff;
 }
 
-
 .btn {
     display: inline-block;
     padding: 0.7rem 1.3rem;
@@ -122,44 +127,20 @@ main {
 /* About Section */
 #about-section {
     width: 100%;
-    margin: 10px;
-    padding-top: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#about-text {
     text-align: center;
+    display: block;
+    margin: 10px;
+    line-height: 30px;
 }
 
-.h2-heading {
-    padding: 10px;
-}
-
-#about-section img {
-    width: 100%;
-    border-radius: 5px;
-    max-height: 300px;
-    max-width: 300px;
-    align-items: center;
-}
-
-.about-container {
-    display: flex;
-    align-items: left;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.right-about {
-    text-align: left;
-    padding: 10px;
-    font-size: 80%;
-    line-height: 1.5;
-}
-
-.right-about div h3 {
-    font-size: 130%;
-}
-
-.right-about div {
-    width: 90%;
-    padding: 10px;
+#about-section div {
+    padding: 20px
 }
 
 #facilities {
