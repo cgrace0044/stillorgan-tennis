@@ -1,39 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Stillorgan Tennis
 
-Welcome,
+Stillorgan Tennis is a website that aims provide information about this tennis club located in Stillorgan Village, Dublin, Ireland.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.io/stillorgan-tennis/)
 
-## Codeanywhere Reminders
+## Site Owner Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- To provide the user with information about the club facilities and a small history.
+- To provide the user with some images of the club to get a 'feel' for the club atmosphere.
+- To give an overview of the club's coaches together with their relevant qualifications.
+- To enable the user to fill out a form to request more information about the club if they are interested in joining.
 
-`python3 -m http.server`
+## User Stories
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- ### First time user
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  - As a first time user I want to understand the main purpose of the site and learn what this tennis club has to offer.
+  - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience.
+  - As a first time user I want to be able to get a 'feel' for the tennis club and if interested to be able to request more information. 
 
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
