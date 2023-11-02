@@ -18,11 +18,6 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
-h1 h2 h3 {
-    font-family: roboto slab, sans-serif;
-    color: #f7f1f1;
-}
-
 /* Header */
 header {
     background-color: #05583b;
@@ -40,6 +35,11 @@ header a {
     text-decoration: none;
     color: #ffffff;
     font-size: 90%;
+}
+
+h1 {
+    font-family: roboto slab, sans-serif;
+    color: #f7f1f1;
 }
 
 #menu {
