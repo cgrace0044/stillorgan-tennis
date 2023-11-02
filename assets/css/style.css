@@ -18,6 +18,11 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+h1 h2 h3 {
+    font-family: roboto slab, sans-serif;
+    color: #f7f1f1;
+}
+
 /* Header */
 header {
     background-color: #05583b;
@@ -35,11 +40,6 @@ header a {
     text-decoration: none;
     color: #ffffff;
     font-size: 90%;
-}
-
-h1 {
-    font-family: roboto slab, sans-serif;
-    color: #f7f1f1
 }
 
 #menu {
@@ -90,6 +90,28 @@ main {
     height: 550px;
     width: 100%;
     background: url(../images/hero-image-stillorgan.jpg) no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(44, 65, 56, 0.8);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text h2 {
+    color: white;
+    
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 10px;
+    margin: 0;
 }
 
 .btn {
