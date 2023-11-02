@@ -100,7 +100,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(33,41,48,0.7);
+    background-color: rgba(33, 41, 48, 0.7);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -108,7 +108,7 @@ main {
     min-height: 150px;
     padding-top: 20px;
     padding-left: 20px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .btn {
@@ -137,6 +137,12 @@ main {
     display: block;
     margin: 10px;
     line-height: 30px;
+}
+
+#about-text h3 {
+    border-bottom: 1px solid #ffd700;
+    width: 100%;
+    display: block;
 }
 
 #about-section div {
