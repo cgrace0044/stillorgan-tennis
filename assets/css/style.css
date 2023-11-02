@@ -86,33 +86,37 @@ main {
 }
 
 /* Hero section */
-#hero {
-    height: 500px;
+#hero-outer {
+    position: relative;
+    height: 600px;
     width: 100%;
+    overflow: hidden;
+    margin-top: 75px;
 }
 
 #hero-image {
-    height: 400px;
     width: 100%;
-    background: url(../images/hero-image-stillorgan.jpg) no-repeat center center/cover;
+    height: 600px;
+    background: url(../images/hero-image-stillorgan.jpg) no-repeat center center;
+    background-size: cover;
 }
 
-#hero-text {
-    height: 100px;
-    width: 100%;
-    background-color: #05583b;
-    padding-top: 5px;
-    color: #ffffff;
+#cover-text {
+    position: absolute;
+    right: 50px;
+    bottom: 300px;
+    width: 400px;
+    height: auto;
+}
+
+#cover-text h2 {
+    color: white;
+    background-color: rgba(44, 65, 56, 0.5);
+    font-size: 28px;
+    font-weight: 700;
     text-align: center;
-    font-family: roboto slab, sans-serif;
-}
-
-#hero-text h2 {
-    font-size: 1rem;
-}
-
-#hero-text h3 {
-    font-size: 0.8rem;
+    padding: 40px 10px;
+    margin: 0;
 }
 
 br {
@@ -140,6 +144,7 @@ br {
     width: 100%;
     margin: 10px;
     padding-top: 5px;
+    text-align: center;
 }
 
 .h2-heading {
@@ -213,7 +218,7 @@ br {
     max-width: 100%;
     height: auto;
     border: 5px double #333;
-    border-radius: 50%;
+    border-radius: 15%;
 }
 
 .card figcaption {
