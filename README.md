@@ -20,3 +20,21 @@ The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.
   - As a first time user I want to be able to intuitively navigate the website and have a positive emotional experience.
   - As a first time user I want to be able to get a 'feel' for the tennis club and if interested to be able to request more information. 
 
+- ### Returning User
+
+- ### Frequent User
+
+- ## Design
+
+### Imagery
+
+The imagery used on the Stillorgan Tennis site is very important to the overall experience of the user. The pictures chosen evoke a feeling of happiness from exercising. 
+
+### Colours
+
+The colour scheme of the website is white and green. Green was chosen as it is a colour which is regularly associated with tennis as most clubs used to have grass courts. White and green together create a relaxing vibe.
+
+### Fonts
+
+The Roboto Slab and Roboto fonts are the main fonts used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+
