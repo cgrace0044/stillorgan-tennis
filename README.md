@@ -38,3 +38,12 @@ The colour scheme of the website is white and green. Green was chosen as it is a
 
 The Roboto Slab and Roboto fonts are the main fonts used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
+## Features
+
+- ### Navigation
+
+  - The navigation bar is positioned at the top of the page.
+  - It contains the name of the tennis club on the left-hand side. This is clickable and will direct you to the home page.
+  - On the left hand side there are links to the Home, Gallery and Contact pages.
+  - The navigation bar is responsive and appears in a form of a hamburger menu on mobile devices.
+  - The navigation is clear and easy to understand for the user.
