@@ -246,16 +246,12 @@ ul {
 
 input[type="submit"] {
     position: absolute;
-    align-items: center;
     background-color: #f1f1f1;
     color: black;
-    border: none;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
     border: 2px solid #05583b;
-    /* Green */
-    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 21px 0 rgba(0, 0, 0, 0.19);
 }
 
 input[type="submit"]:hover {
@@ -367,8 +363,7 @@ footer a {
   }
 
   input[type="submit"] {
-    width: 12%;
-    margin-left: 30%;
+    text-align: center;
   }
 }
 
