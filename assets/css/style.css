@@ -231,7 +231,7 @@ ul {
   background-color: rgba(5, 0, 0, 0.7);
   margin: 40px 5px;
   font-size: 80%;
-  padding: 20px;
+  padding: 30px;
 }
 
 .input-field {
@@ -242,6 +242,26 @@ ul {
 
 .input-field label {
   display: block;
+}
+
+input[type="submit"] {
+    position: absolute;
+    align-items: center;
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid #05583b;
+    /* Green */
+    box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.4), 0 6px 21px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type="submit"]:hover {
+    background-color: #05583b;
+    /* Green */
+    color: white;
 }
 
 /* Footer */
@@ -326,6 +346,7 @@ footer a {
     column-count: 3;
   }
 
+  /* Membership */
   .input-field {
     text-align: center;
   }
@@ -343,6 +364,11 @@ footer a {
 
   .checkbox {
     margin-top: 5px;
+  }
+
+  input[type="submit"] {
+    width: 12%;
+    margin-left: 30%;
   }
 }
 
