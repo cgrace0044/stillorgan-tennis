@@ -60,7 +60,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #f7f1f1;
+    border-bottom: 1px solid #ffd700;
 }
 
 /* Navbar styles with dropdown toggle */
