@@ -283,6 +283,10 @@ footer a {
   padding: 10px;
 }
 
+#social-networks i {
+    font-size: 110%;
+}
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
   #photos {
@@ -391,7 +395,14 @@ footer a {
     margin-top: 100px;
   }
 
-    /* Gallery */
+  /* Hero */
+  #cover-text {
+  font-size: 150%;
+  padding-top: 30px;
+  padding-left: 30px;
+  }
+  
+  /* Gallery */
   #photos {
     column-count: 4;
   }
@@ -407,5 +418,13 @@ footer a {
 
   #menu > li {
     font-size: 150%;
+  }
+
+  /* Main */
+  /* Hero */
+  #cover-text {
+  font-size: 170%;
+  padding-top: 35px;
+  padding-left: 35px;
   }
 }
