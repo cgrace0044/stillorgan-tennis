@@ -294,6 +294,10 @@ footer a {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
+  header {
+    padding: 0 1rem;
+  }
+  
   nav {
     display: block;
     position: relative;
@@ -317,6 +321,7 @@ footer a {
   #logo {
     font-size: 270%;
     line-height: 65px;
+    letter-spacing: 2px;
   }
 
   /* Main */
@@ -360,10 +365,43 @@ footer a {
   }
 }
 
-/* Media query: laptops and desktops (992px and up) */
+/* Media query: laptops (992px and up) */
 @media screen and (min-width: 992px) {
-  /* Gallery */
+  /* Header */
+  header {
+    padding: 0 2rem;
+  }
+
+  #logo {
+    font-size: 320%;
+    line-height: 100px;
+  }
+
+  #menu > li {
+    padding-left: 1.5rem;
+    font-size: 120%;
+  }
+  
+  /* Main */
+  main {
+    margin-top: 100px;
+  }
+
+    /* Gallery */
   #photos {
     column-count: 4;
+  }
+}
+
+/* Media query: Desktops (1200px and up) */
+@media screen and (min-width: 1200px) {
+/* Header */
+  #logo {
+    font-size: 450%;
+    line-height: 100px;
+  }
+
+  #menu > li {
+    font-size: 150%;
   }
 }
