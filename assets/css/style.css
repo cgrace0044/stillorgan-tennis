@@ -110,10 +110,10 @@ main {
   font-size: 130%;
   position: absolute;
   bottom: 30px;
-  width: 80%;
+  width: 90%;
   min-height: 150px;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 15px;
   color: #ffffff;
 }
 
@@ -398,8 +398,8 @@ footer a {
   /* Hero */
   #cover-text {
   font-size: 150%;
-  padding-top: 30px;
-  padding-left: 30px;
+  width: 450px;
+  right: 50px;
   }
   
   /* Gallery */
