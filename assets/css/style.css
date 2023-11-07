@@ -324,18 +324,6 @@ footer a {
     margin-top: 65px;
   }
 
-  .about-container {
-    flex-direction: column-reverse;
-  }
-
-  .left-about {
-    width: 100%;
-  }
-
-  .right-about {
-    width: 100%;
-  }
-
   #meet-our-team {
     justify-content: center;
     flex-flow: row wrap;
