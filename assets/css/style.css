@@ -178,7 +178,7 @@ ul {
 }
 
 .card {
-  width: min(100%, 350px);
+  width: min(100%, 300px);
   background-color: #05583b;
   border: 2px solid #000;
   border-radius: 15px;
