@@ -146,6 +146,13 @@ main {
   padding: 20px 0;
 }
 
+.h2-about {
+    font-family: "roboto-slab", sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
 #about-text {
   text-align: center;
   display: block;
@@ -169,15 +176,18 @@ ul {
 
 /* Meet our team section */
 #our-coaches {
-    text-align: center;
-    margin: 10px;
-    max-width: 1200px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
 }
 
 #our-coaches h3 {
     border-bottom: 1px solid #ffd700;
     width: 100%;
     display: block;
+    margin: 10px;
 }
 
 #meet-our-team {
