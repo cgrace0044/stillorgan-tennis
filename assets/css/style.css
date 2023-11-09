@@ -168,6 +168,18 @@ ul {
 }
 
 /* Meet our team section */
+#our-coaches {
+    text-align: center;
+    margin: 10px;
+    max-width: 1200px;
+}
+
+#our-coaches h3 {
+    border-bottom: 1px solid #ffd700;
+    width: 100%;
+    display: block;
+}
+
 #meet-our-team {
   flex-grow: 1;
   display: flex;
