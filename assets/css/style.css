@@ -27,7 +27,7 @@ h3 {
 /* Header */
 header {
   background-color: #05583b;
-  padding: 0 0.5rem;
+  padding: 0.5rem 0.5rem;
   position: fixed;
   width: 100%;
   box-shadow: 0 4px 4px #3a3a3a;
@@ -227,6 +227,7 @@ ul {
   width: 100%;
   line-height: 1em;
   filter: grayscale(100%);
+  border: 1px solid #ffd700;
 }
 
 #photos img:hover {
@@ -263,6 +264,7 @@ ul {
   padding: 50px 10px 50px 10px;
   max-width: 300px;
   text-align: center;
+  border: 1px solid #ffd700;
 }
 
 #enquire-about-membership h2 {
