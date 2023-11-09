@@ -44,7 +44,7 @@ header a {
 }
 
 h1 {
-  font-family: roboto slab, sans-serif;
+  font-family: "roboto slab", sans-serif;
   color: #f7f1f1;
 }
 
@@ -119,15 +119,23 @@ main {
 
 .btn {
   display: inline-block;
-  padding: 0.7rem 1.3rem;
-  font-size: 0.5rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  border: 1px solid;
-  border-radius: 0.5rem;
-  box-shadow: inset 0 -3px 0 1px #3a3a3a;
-  background-color: white;
+  padding: 0.5rem 1.1rem;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid #05583b;
+  border-radius: 5px;
+  box-shadow: inset 0 -2px 0 1px #05583b;
+  background-color: #f1f1f1;
   text-decoration: none;
+  font-family: "roboto slab", sans-serif;
+  color: #3a3a3a;
+}
+
+.btn:hover {
+    background-color: #05583b;
+    /* Green */
+    color: white;
 }
 
 /* About Section */
@@ -251,12 +259,17 @@ ul {
 
 input[type="submit"] {
     position: absolute;
+    display: inline-block;
     background-color: #f1f1f1;
-    color: black;
+    color: #3a3a3a;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
     border: 2px solid #05583b;
+    padding: 0.5rem 1.1rem;
+    box-shadow: inset 0 -2px 0 1px #05583b;
+    left: 48%;
+    font-family: "roboto slab", sans-serif;
 }
 
 input[type="submit"]:hover {
