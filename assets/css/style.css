@@ -3,60 +3,60 @@
 
 /* Asterisk wildcard selector to reset default browser styles */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* Generic project styles */
-  color: #3a3a3a;
-  font-family: "roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: "roboto", sans-serif;
 }
 
 h3 {
-  font-family: roboto slab, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+    font-family: roboto slab, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 /* Header */
 header {
-  background-color: #05583b;
-  padding: 0.5rem 0.5rem;
-  position: fixed;
-  width: 100%;
-  box-shadow: 0 4px 4px #3a3a3a;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  z-index: 1;
+    background-color: #05583b;
+    padding: 0.5rem 0.5rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 4px 4px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 1;
 }
 
 header a {
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 90%;
 }
 
 h1 {
-  font-family: "roboto slab", sans-serif;
-  color: #f7f1f1;
+    font-family: "roboto slab", sans-serif;
+    color: #f7f1f1;
 }
 
 #menu {
-  list-style-type: none;
-  letter-spacing: 2px;
-  font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 110%;
 }
 
 #menu li {
-  margin-top: 10px;
-  margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .active {
@@ -65,71 +65,70 @@ h1 {
 
 /* Navbar styles with dropdown toggle */
 nav {
-  position: absolute;
-  background-color: #05583b;
-  width: 100%;
-  left: 0;
-  padding: 0 0.5rem;
-  box-shadow: 0 4px 4px #3a3a3a;
-  display: none;
-  top: 100%;
+    position: absolute;
+    background-color: #05583b;
+    width: 100%;
+    left: 0;
+    padding: 0 0.5rem;
+    box-shadow: 0 4px 4px #3a3a3a;
+    display: none;
+    top: 100%;
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
-  display: block;
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 #nav-toggle {
-  display: none;
+    display: none;
 }
 
 .nav-toggle-label {
-  font-size: 1.5rem;
-  color: #ffffff;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
 
 /* Main content */
 main {
-  /* Make main take up any surplus space to push footer down */
-  flex: 1 0 auto;
-  margin-top: 38px;
+    /* Make main take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 38px;
 }
 
 /* Hero section */
 #hero {
-  height: 550px;
-  width: 100%;
-  background: url(../images/hero-image-stillorgan.webp) no-repeat center
-    center/cover;
-  position: relative;
+    height: 550px;
+    width: 100%;
+    background: url(../images/hero-image-stillorgan.webp) no-repeat center center/cover;
+    position: relative;
 }
 
 #cover-text {
-  background-color: rgba(33, 41, 48, 0.7);
-  font-size: 130%;
-  position: absolute;
-  bottom: 30px;
-  width: 90%;
-  min-height: 150px;
-  padding-top: 20px;
-  padding-left: 15px;
-  color: #ffffff;
+    background-color: rgba(33, 41, 48, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 90%;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 15px;
+    color: #ffffff;
 }
 
 .btn {
-  display: inline-block;
-  padding: 0.5rem 1.1rem;
-  cursor: pointer;
-  text-align: center;
-  margin-top: 30px;
-  border: 2px solid #05583b;
-  border-radius: 5px;
-  box-shadow: inset 0 -2px 0 1px #05583b;
-  background-color: #f1f1f1;
-  text-decoration: none;
-  font-family: "roboto slab", sans-serif;
-  color: #3a3a3a;
+    display: inline-block;
+    padding: 0.5rem 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #05583b;
+    border-radius: 5px;
+    box-shadow: inset 0 -2px 0 1px #05583b;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    font-family: "roboto slab", sans-serif;
+    color: #3a3a3a;
 }
 
 .btn:hover {
@@ -140,13 +139,13 @@ main {
 
 /* About Section */
 #about-section {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-.h2-about {
+.section-header {
     font-family: "roboto-slab", sans-serif;
     letter-spacing: 4px;
     text-transform: uppercase;
@@ -154,21 +153,21 @@ main {
 }
 
 #about-text {
-  text-align: center;
-  display: block;
-  margin: 10px;
-  line-height: 30px;
+    text-align: center;
+    display: block;
+    margin: 10px;
+    line-height: 30px;
 }
 
 #about-text h3 {
-  border-bottom: 1px solid #ffd700;
-  width: 100%;
-  display: block;
-  margin-bottom: 15px;
+    border-bottom: 1px solid #ffd700;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
 }
 
 #about-section div {
-  padding: 20px;
+    padding: 20px;
 }
 
 #membership-table {
@@ -200,11 +199,11 @@ ul {
 
 /* Meet our team section */
 #our-coaches {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 30px 20px 30px;
-  text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 30px 20px 30px;
+    text-align: center;
 }
 
 #our-coaches h3 {
@@ -216,80 +215,80 @@ ul {
 }
 
 #meet-our-team {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
 }
 
 .card {
-  width: min(100%, 300px);
-  background-color: #d3d3d3;
-  border: 2px solid #05583b;
-  border-radius: 15px;
-  padding: 1rem;
-  align-items: center;
+    width: min(100%, 300px);
+    background-color: #d3d3d3;
+    border: 2px solid #05583b;
+    border-radius: 15px;
+    padding: 1rem;
+    align-items: center;
 }
 
 .card img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border: 5px double #05583b;
-  border-radius: 15%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 5px double #05583b;
+    border-radius: 15%;
 }
 
 .card figcaption {
-  font-size: 1.5rem;
-  margin: 1rem;
-  text-align: center;
-  font-family: "roboto-slab", sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+    font-family: "roboto-slab", sans-serif;
 }
 
 /* Gallery page */
 
 #photos img {
-  width: 100%;
-  line-height: 1em;
-  filter: grayscale(100%);
-  border: 1px solid #ffd700;
+    width: 100%;
+    line-height: 1em;
+    filter: grayscale(100%);
+    border: 1px solid #ffd700;
 }
 
 #photos img:hover {
-  filter: none;
+    filter: none;
 }
 
 #photos {
-  line-height: 0;
+    line-height: 0;
 }
 
 /* Membership page */
 #enquire-about-membership {
-  background-image: url("../images/contact-form-image.webp");
-  opacity: 0.7;
-  background-size: cover;
-  background-position: 75%;
-  padding: 40px 10% 0 10%;
-  flex-grow: 1;
-  color: #ffffff;
-  font-family: roboto-slab, sans-serif;
-  position: relative;
-  z-index: 0;
-  margin-top: 40px;
+    background-image: url("../images/contact-form-image.webp");
+    opacity: 0.7;
+    background-size: cover;
+    background-position: 75%;
+    padding: 40px 10% 0 10%;
+    flex-grow: 1;
+    color: #ffffff;
+    font-family: roboto-slab, sans-serif;
+    position: relative;
+    z-index: 0;
+    margin-top: 40px;
 }
 
 #enquire-about-membership form {
-  background-color: rgba(5, 0, 0, 0.9);
-  position: absolute;
-  margin: auto;
-  top: 18%;
-  left: 0;
-  right: 0;
-  font-size: 80%;
-  padding: 50px 10px 50px 10px;
-  max-width: 300px;
-  text-align: center;
-  border: 1px solid #ffd700;
+    background-color: rgba(5, 0, 0, 0.9);
+    position: absolute;
+    margin: auto;
+    top: 18%;
+    left: 0;
+    right: 0;
+    font-size: 80%;
+    padding: 50px 10px 50px 10px;
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid #ffd700;
 }
 
 #enquire-about-membership h2 {
@@ -304,13 +303,13 @@ ul {
 }
 
 .input-field {
-  width: 100%;
-  border-radius: 2px;
-  margin-top: 15px;
+    width: 100%;
+    border-radius: 2px;
+    margin-top: 15px;
 }
 
 .input-field label {
-  display: block;
+    display: block;
 }
 
 .checkbox-field {
@@ -341,20 +340,20 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-  background-color: #05583b;
-  box-shadow: 0 -4px 4px #3a3a3a;
+    background-color: #05583b;
+    box-shadow: 0 -4px 4px #3a3a3a;
 }
 
 footer a {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 #social-networks {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  text-align: center;
-  padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
 }
 
 #social-networks i {
@@ -363,124 +362,127 @@ footer a {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-  #photos {
-    column-count: 2;
-    column-gap: 0;
-  }
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-  /* Header */
-  header {
-    padding: 0 1rem;
-  }
-  
-  nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 1rem;
-  }
 
-  #menu {
-    display: flex;
-  }
+    /* Header */
+    header {
+        padding: 0 1rem;
+    }
 
-  #menu > li {
-    padding-left: 1rem;
-  }
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-  .nav-toggle-label {
-    display: none;
-  }
+    #menu {
+        display: flex;
+    }
 
-  #logo {
-    font-size: 270%;
-    line-height: 65px;
-    letter-spacing: 2px;
-  }
+    #menu>li {
+        padding-left: 1rem;
+    }
 
-  /* Main */
-  main {
-    margin-top: 65px;
-  }
+    .nav-toggle-label {
+        display: none;
+    }
 
-  #meet-our-team {
-    justify-content: center;
-    flex-flow: row wrap;
-    padding: 1rem;
-  }
+    #logo {
+        font-size: 270%;
+        line-height: 65px;
+        letter-spacing: 2px;
+    }
 
-  /* Gallery */
-  #photos {
-    column-count: 3;
-  }
+    /* Main */
+    main {
+        margin-top: 65px;
+    }
+
+    #meet-our-team {
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media query: laptops (992px and up) */
 @media screen and (min-width: 992px) {
-  /* Header */
-  #menu a:hover {
-    border-bottom: 1px solid #ffd700;
-  }
-  
-  header {
-    padding: 0 2rem;
-  }
 
-  #logo {
-    font-size: 320%;
-    line-height: 100px;
-  }
+    /* Header */
+    #menu a:hover {
+        border-bottom: 1px solid #ffd700;
+    }
 
-  #menu > li {
-    padding-left: 1.5rem;
-    font-size: 120%;
-  }
-  
-  /* Main */
-  main {
-    margin-top: 100px;
-  }
+    header {
+        padding: 0 2rem;
+    }
 
-  /* Hero */
-  #cover-text {
-  font-size: 150%;
-  width: 450px;
-  right: 50px;
-  }
-  
-  /* Gallery */
-  #photos {
-    column-count: 4;
-  }
+    #logo {
+        font-size: 320%;
+        line-height: 100px;
+    }
 
-  /* Membership */
-  #enquire-about-membership form {
-    max-width: 400px;
-    font-size: 100%;
-  }
+    #menu>li {
+        padding-left: 1.5rem;
+        font-size: 120%;
+    }
+
+    /* Main */
+    main {
+        margin-top: 100px;
+    }
+
+    /* Hero */
+    #cover-text {
+        font-size: 150%;
+        width: 450px;
+        right: 50px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+
+    /* Membership */
+    #enquire-about-membership form {
+        max-width: 400px;
+        font-size: 100%;
+    }
 }
 
 /* Media query: Desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
-/* Header */
-  #logo {
-    font-size: 450%;
-    line-height: 100px;
-  }
 
-  #menu > li {
-    font-size: 150%;
-  }
+    /* Header */
+    #logo {
+        font-size: 450%;
+        line-height: 100px;
+    }
 
-  /* Main */
-  /* Hero */
-  #cover-text {
-  font-size: 170%;
-  padding-top: 35px;
-  padding-left: 35px;
-  }
+    #menu>li {
+        font-size: 150%;
+    }
+
+    /* Main */
+    /* Hero */
+    #cover-text {
+        font-size: 170%;
+        padding-top: 35px;
+        padding-left: 35px;
+    }
 }
