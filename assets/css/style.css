@@ -279,7 +279,7 @@ ul {
 }
 
 #enquire-about-membership form {
-  background-color: rgba(5, 0, 0, 0.7);
+  background-color: rgba(5, 0, 0, 0.9);
   position: absolute;
   margin: auto;
   top: 18%;
@@ -323,7 +323,7 @@ ul {
 input[type="submit"] {
     position: relative;
     display: inline-block;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     color: #3a3a3a;
     cursor: pointer;
     border-radius: 5px;
