@@ -62,15 +62,18 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
     - The button changes from one to green when clicked. 
 
 ### Our People Section
+
     - The Our People Section contains just one heading called Meet Our Coaches. Three cards are displayed with pictures of the coaches and their job titles.
     - The number of cards displayed per line depends on the width of the screen. On small screens one card displays per line, on tablets and laptops two cards and on desktops three cards. 
 
 ### Footer Section
+
     - The footer section includes links to Stillorgan Tennis' Facebook, Twitter, Youtube, Instagram and Tiktok pages. 
     - The links will open to a new tab to allow easy navigation for the user. 
     - The links are evenly spaced along the bottom of the screen on all screen-sizes. 
 
 ### Gallery Page
+
     - Contains images of both children and adults enjoying the club's facilities.
     - The images appear in a greyscale format but once clicked on they change to color.
     - Each image is surrounded by a gold border to maintain a consistent color-scheme across all pages.
