@@ -104,3 +104,29 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The submit button changes from white to green when the form is submitted.
 
 ![Membership page](docs/readme-images/membership-page.webp)
+
+### Features Left to Implement
+
+- In the future I would like to add to the 'Our People' section e.g. name of committee members, coaches profiles etc.
+- A more comprehensive contact section with address, telephone number, email address etc
+- A section containing upcoming events.
+
+## Testing
+
+### Validator Testing
+
+#### HTML
+
+- No errors were returned when passing through the official W3C Markup Validator
+- [W3C Validator Results]()
+
+#### CSS
+
+- No errors were found when passing through the official W3C CSS Validator
+- [W3C CSS Validator Results]()
+
+#### Accessibility
+
+- The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+
+![Lighthouse score](docs/readme-images/lighthouse_score.webp)
