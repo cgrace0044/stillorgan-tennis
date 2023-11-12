@@ -150,3 +150,14 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The responsive design was checked using Chrome developer tools across multiple devices with no issues noted/
 - I also used the following websites to test responsiveness:
   - [Am I Responsive](https://ui.dev/amiresponsive?url=https://cgrace0044.github.io/stillorgan-tennis)
+
+### Friends and Family User Testing
+
+Friends and family members were asked to review the site to detect any issues.
+
+### Fixed Bugs
+
+#### Poor Accessibility Score on Membership Form
+
+- When running the light-house tool for the Membership page I noticed that the accessibility score was low.
+- I change the transparency of the background color so that there would be sufficient contrast between it and the submit button.
