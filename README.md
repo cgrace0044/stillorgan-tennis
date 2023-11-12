@@ -130,3 +130,23 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
 
 ![Lighthouse score](docs/readme-images/lighthouse_score.webp)
+
+### Form Testing
+
+- The form has been tested to ensure it would not submit without the required input fields being filled in (full name, email address and membership type).
+- Once the form is submitted correctly a response page is returned with a congratulations message.
+
+### Links Testing
+
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab.
+
+### Browser Testing
+
+- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+
+### Device Testing
+
+- The responsive design was checked using Chrome developer tools across multiple devices with no issues noted/
+- I also used the following websites to test responsiveness:
+  - [Am I Responsive](https://ui.dev/amiresponsive?url=https://cgrace0044.github.io/stillorgan-tennis)
