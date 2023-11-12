@@ -84,6 +84,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The links will open to a new tab to allow easy navigation for the user.
 - The links are evenly spaced along the bottom of the screen on all screen-sizes.
 
+![Footer image](docs/readme-images/footer.webp)
+
 ### Gallery Page
 
 - Contains images of both children and adults enjoying the club's facilities.
