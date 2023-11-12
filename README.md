@@ -95,6 +95,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - Each image is surrounded by a gold border to maintain a consistent color-scheme across all pages.
 - The gallery page is responsive: there is one column on small screens, two on large or landscape phones, three on tablets and four on desktops and up.
 
+![Gallery page](docs/readme-images/gallery_image.webp)
+
 ### Membership Page
 
 - The membership page contains a form requesting the users' firstname, lastname and email address. It also asks which membership type the user is interested in via checkboxes.
