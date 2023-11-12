@@ -61,6 +61,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - For smaller screens the text overlay is located on the left-hand-side. On larger screens the text-overlay moves to the right-hand side to make better use of the space.
 - This section provides the user with a clear visual representation of the purpose of the site.
 
+![Landing page image](docs/readme-images/landing-page.webp)
+
 ### About Section
 
 - The About Section has three headings: Our Club, Our Members Enjoy and Membership.
