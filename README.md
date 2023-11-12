@@ -50,6 +50,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The navigation bar is responsive and appears in a form of a hamburger menu on mobile devices.
 - The navigation is clear and easy to understand for the user.
 - The active page appears with a gold underline in the navigation bar.
+![NavBar large screens](docs/readme-images/navigation-bar_large-screens.webp)
 
 ### The Landing Page Image
 
