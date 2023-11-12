@@ -71,6 +71,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The Membership div contains information about the membership fees together with a button link the membership page where the user can request more information.
 - The button changes from one to green when clicked.
 
+![About section image](docs/readme-images/about-us.webp)
+
 ### Our People Section
 
 - The Our People Section contains just one heading called Meet Our Coaches. Three cards are displayed with pictures of the coaches and their job titles.
