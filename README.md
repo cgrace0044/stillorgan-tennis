@@ -99,3 +99,6 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 - The membership page contains a form requesting the users' firstname, lastname and email address. It also asks which membership type the user is interested in via checkboxes.
 - The form is centered on the page and appears slightly bigger on larger screens.
+- The submit button changes from white to green when the form is submitted.
+
+![Membership page](docs/readme-images/membership-page.webp)
