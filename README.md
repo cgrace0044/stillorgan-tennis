@@ -29,7 +29,7 @@ The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.
 
 ### Imagery
 
-The imagery used on the Stillorgan Tennis site is very important to the overall experience of the user. The pictures chosen evoke a feeling of happiness from exercising.
+The imagery used on the Stillorgan Tennis site is very important to the overall experience of the user. The pictures chosen evoke a feeling of happiness from exercising and socialising.
 
 ### Colours
 
@@ -44,8 +44,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 ### Navigation
 
 - The navigation bar is positioned at the top of the page.
-- It contains the name of the tennis club on the left-hand side. This is clickable and will direct you to the home page.
-- On the left hand side there are links to the Home, Gallery and Membership pages.
+- It contains the name of the tennis club on the left. This is clickable and will direct you to the home page.
+- On the right there are links to the Home, Gallery and Membership pages.
 - The navigation bar is responsive and appears in a form of a hamburger menu on mobile devices.
 - The navigation is clear and easy to understand for the user.
 - The active page appears with a gold underline in the navigation bar.
@@ -57,17 +57,17 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 ### The Landing Page Image
 
 - The landing page includes an eye-catching image with a text overlay with the name of the club and when it was founded.
-- For smaller screens the text overlay is located on the left-hand-side. On larger screens the text-overlay moves to the right-hand side and the width is reduced to make better use of the space.
+- For smaller screens the text overlay is located on the left. On larger screens the text-overlay moves to the right and the width is reduced to make better use of the space.
 - This section provides the user with a clear visual representation of the purpose of the site.
 
 ![Landing page image](docs/readme-images/landing-page.webp)
 
 ### About Section
 
-- The About Section has three headings: Our Club, Our Members Enjoy and Membership.
-- In the Our Club div there is some brief information about the tennis club including the year it was founded, where the club is located, who the club is for and what competitions are on offer.
-- The Our Members Enjoy div contains a short list of the club's facilities.
-- The Membership div contains information about the membership fees together with a button link to the membership page where the user can request more information.
+- The About Section has three headings: 'Our Club', 'Our Members Enjoy' and 'Membership'.
+- In the 'Our Club' div there is some brief information about the tennis club including the year it was founded, where the club is located, who the club is for and what competitions are on offer.
+- The 'Our Members Enjoy' div contains a short list of the club's facilities.
+- The 'Membership' div contains information about the membership fees together with a button link to the membership page where the user can request more information.
 - The background colour of the button button changes from white to green when clicked. The text changes from black to white when clicked.
 
 ![About section image](docs/readme-images/about-us.webp)
@@ -219,4 +219,5 @@ I drew inspiration from looking at various tennis club sites in Dublin including
 
 ## Acknowledgments
 
-My mentor Antonio for his support and advice.
+- My mentor Antonio for his support and advice.
+- My class-mates for various tips and tricks suggested to correct bugs on the site.
