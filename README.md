@@ -180,9 +180,9 @@ On the Gallery page the photos change from greyscale to color on most browsers o
 - [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
 - [GitHub](https://github.com/) - Used for version control and hosting.
 - [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
-- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size.
 - [Convertio](https://convertio.co/) - Used to convert image files from PNG/JPEG to WEBP.
-- [Freeconvert](https://www.freeconvert.com/webp-converter) - Used to convert image files from PNG/JPEG to WEBP (ran out of free credits on Convertio)
+- [Freeconvert](https://www.freeconvert.com/webp-converter) - Used to convert image files from PNG/JPEG to WEBP -ran out of free credits on Convertio.
 - [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
 
 ## Deployment
@@ -201,16 +201,16 @@ I drew inspiration from looking at various tennis club sites in Dublin including
 
 ### Media
 
-All images were sourced from Pexels.
-[Pexels](https://www.pexels.com/)
+- All images were sourced from Pexels.
+- [Pexels](https://www.pexels.com/)
 
 ### Resources Used
 
-- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
-- [Stack Overflow](https://stackoverflow.com/)
+- The code used for setting up the page i.e. header, footer and inspiration for the gallery page was taken from the Code Institute Love Running project.
+- I watched this video on Youtube as inspiration for the 'Meet Our Coaches' section: [Free Code Camp](https://www.youtube.com/watch?v=OXGznpKZ_sA)
+- For clarification on various CSS style rules I used the following website:[W3Schools](https://www.w3schools.com/)
+- For various HTML and CSS issues I used the tutorials on the Code Institute Website[Code Institute](https://learn.codeinstitute.net/)
 
 ## Acknowledgments
 
 My mentor Antonio for his support and advice.
-
-The Code Institute slack community for their quick responses and very helpful feedback!
