@@ -11,7 +11,6 @@ The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.
 - To provide the user with information about the club facilities and what the club has to offer.
 - To provide the user with some images of the club to get a 'feel' for the club atmosphere.
 - To give an overview of the membership prices.
-- To show pictures of the club's coaches.
 - To enable the user to fill out a form to request more information about the club if they are interested in joining.
 
 ## User Stories
@@ -26,7 +25,7 @@ The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.
 
 - As a returning/frequent user I want to be able to request more information about the club via the contact form.
 
-- ## Design
+## Design
 
 ### Imagery
 
@@ -38,7 +37,7 @@ The colour scheme of the website is predominently white and green with hints of 
 
 ### Fonts
 
-The Roboto Slab and Roboto fonts are the main fonts used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
+The Roboto Slab and Roboto fonts are the main fonts used throughout the whole website. These fonts were imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
 ## Features
 
@@ -58,7 +57,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 ### The Landing Page Image
 
 - The landing page includes an eye-catching image with a text overlay with the name of the club and when it was founded.
-- For smaller screens the text overlay is located on the left-hand-side. On larger screens the text-overlay moves to the right-hand side to make better use of the space.
+- For smaller screens the text overlay is located on the left-hand-side. On larger screens the text-overlay moves to the right-hand side and the width is reduced to make better use of the space.
 - This section provides the user with a clear visual representation of the purpose of the site.
 
 ![Landing page image](docs/readme-images/landing-page.webp)
@@ -68,14 +67,14 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The About Section has three headings: Our Club, Our Members Enjoy and Membership.
 - In the Our Club div there is some brief information about the tennis club including the year it was founded, where the club is located, who the club is for and what competitions are on offer.
 - The Our Members Enjoy div contains a short list of the club's facilities.
-- The Membership div contains information about the membership fees together with a button link the membership page where the user can request more information.
-- The button changes from one to green when clicked.
+- The Membership div contains information about the membership fees together with a button link to the membership page where the user can request more information.
+- The background colour of the button button changes from white to green when clicked. The text changes from black to white when clicked.
 
 ![About section image](docs/readme-images/about-us.webp)
 
 ### Our People Section
 
-- The Our People Section contains just one heading called Meet Our Coaches. Three cards are displayed with pictures of the coaches and their job titles.
+- The 'Our People' Section contains just one heading called 'Meet Our Coaches'. Three cards are displayed with pictures of the coaches and their job titles.
 - The number of cards displayed per line depends on the width of the screen. On small screens one card displays per line, on tablets and laptops two cards and on desktops three cards.
 
 ![Our People image](docs/readme-images/our-people.webp)
@@ -83,7 +82,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 ### Footer Section
 
 - The footer section includes links to Stillorgan Tennis' Facebook, Twitter, Youtube, Instagram and Tiktok pages.
-- The links will open to a new tab to allow easy navigation for the user.
+- The links will open in a new tab to allow easy navigation for the user.
 - The links are evenly spaced along the bottom of the screen on all screen-sizes.
 
 ![Footer image](docs/readme-images/footer.webp)
@@ -91,7 +90,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 ### Gallery Page
 
 - Contains images of both children and adults enjoying the club's facilities.
-- The images appear in a greyscale format but once clicked on they change to color.
+- The images appear in a greyscale format but once clicked/hovered-over they change to colour.
 - Each image is surrounded by a gold border to maintain a consistent color-scheme across all pages.
 - The gallery page is responsive: there is one column on small screens, two on large or landscape phones, three on tablets and four on desktops and up.
 
@@ -99,9 +98,10 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 ### Membership Page
 
-- The membership page contains a form requesting the users' firstname, lastname and email address. It also asks which membership type the user is interested in via checkboxes.
+- The membership page contains a form requesting the users' fullname and email address. It also asks which membership type the user is interested in via checkboxes.
 - The form is centered on the page and appears slightly bigger on larger screens.
-- The submit button changes from white to green when the form is submitted.
+- The form is surrounded by a neat gold border.
+- The submit button changes from white to green when the form is submitted. The text on the button changes from black to white when clicked.
 
 ![Membership page](docs/readme-images/membership-page.webp)
 
@@ -109,7 +109,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 - In the future I would like to add to the 'Our People' section e.g. name of committee members, coaches profiles etc.
 - A more comprehensive contact section with address, telephone number, email address etc
-- A section containing upcoming events.
+- A section containing upcoming events would also be useful.
 
 ## Testing
 
@@ -143,7 +143,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 ### Browser Testing
 
-- The Website was tested on Google Chrome, Firefox, Brave, Safari browsers with no issues noted.
+- The Website was tested on Google Chrome, Firefox, Brave and Safari browsers with no issues noted.
 
 ### Device Testing
 
@@ -162,9 +162,15 @@ Friends and family members were asked to review the site to detect any issues.
 - When running the light-house tool for the Membership page I noticed that the accessibility score was low.
 - I change the transparency of the background color so that there would be sufficient contrast between it and the submit button.
 
+#### Poor Performance Score Improved by Compressing Images
+
+- Originally the site had a poor performance score as various image types were used.
+- I converted all images to the WEBP file type and I also compressed all the images.
+- This dramatically improved the performance score.
+
 ### Known Bugs
 
-On the Gallery page the photos change from greyscale to color on most browsers on hover. In Google chrome it seems to require a click.
+No known bugs.
 
 ## Technologies Used
 
@@ -208,8 +214,8 @@ I drew inspiration from looking at various tennis club sites in Dublin including
 
 - The code used for setting up the page i.e. header, footer and inspiration for the gallery page was taken from the Code Institute Love Running project.
 - I watched this video on Youtube as inspiration for the 'Meet Our Coaches' section: [Free Code Camp](https://www.youtube.com/watch?v=OXGznpKZ_sA)
-- For clarification on various CSS style rules I used the following website:[W3Schools](https://www.w3schools.com/)
-- For various HTML and CSS issues I used the tutorials on the Code Institute Website[Code Institute](https://learn.codeinstitute.net/)
+- For clarification on various CSS style rules I used the following website: [W3Schools](https://www.w3schools.com/)
+- For various HTML and CSS issues I used the tutorials on the Code Institute Website: [Code Institute](https://learn.codeinstitute.net/)
 
 ## Acknowledgments
 
