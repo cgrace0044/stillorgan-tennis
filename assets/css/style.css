@@ -450,6 +450,10 @@ footer a {
         margin-top: 100px;
     }
 
+    #membership-table {
+        min-width: 300px;
+    }
+
     /* Hero */
     #cover-text {
         font-size: 150%;
