@@ -143,11 +143,11 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 ### Browser Testing
 
-- The Website was tested on Google Chrome, Firefox, Microsoft Edge, Safari browsers with no issues noted.
+- The Website was tested on Google Chrome, Firefox, Brave, Safari browsers with no issues noted.
 
 ### Device Testing
 
-- The responsive design was checked using Chrome developer tools across multiple devices with no issues noted/
+- The responsive design was checked using Chrome developer tools across multiple devices with no issues noted.
 - I also used the following websites to test responsiveness:
   - [Am I Responsive](https://ui.dev/amiresponsive?url=https://cgrace0044.github.io/stillorgan-tennis)
 
@@ -161,3 +161,56 @@ Friends and family members were asked to review the site to detect any issues.
 
 - When running the light-house tool for the Membership page I noticed that the accessibility score was low.
 - I change the transparency of the background color so that there would be sufficient contrast between it and the submit button.
+
+### Known Bugs
+
+On the Gallery page the photos change from greyscale to color on most browsers on hover. In Google chrome it seems to require a click.
+
+## Technologies Used
+
+### Languages
+
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [Convertio](https://convertio.co/) - Used to convert image files from PNG/JPEG to WEBP.
+- [Freeconvert](https://www.freeconvert.com/webp-converter) - Used to convert image files from PNG/JPEG to WEBP (ran out of free credits on Convertio)
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages.
+
+### Content
+
+I drew inspiration from looking at various tennis club sites in Dublin including:
+
+- [Monkstown LTC](https://www.monkstownltc.com)
+- [Carrickmines LTC](https://www.carrickmines.com/)
+- [Glenageary LTC](https://glenagearyltc.ie/)
+- [David Lloyd Riverview](https://www.davidlloyd.ie/clubs/dublin-riverview/)
+- [Lansdowne LTC](https://lansdowneltc.com/)
+
+### Media
+
+All images were sourced from Pexels.
+[Pexels](https://www.pexels.com/)
+
+### Resources Used
+
+- Inspiration for dropdown nav bar - [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
+## Acknowledgments
+
+My mentor Antonio for his support and advice.
+
+The Code Institute slack community for their quick responses and very helpful feedback!
