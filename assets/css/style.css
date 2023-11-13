@@ -197,7 +197,7 @@ ul {
 }
 
 /* Meet our team section */
-#our-coaches {
+#our-people {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -205,7 +205,7 @@ ul {
     text-align: center;
 }
 
-#our-coaches h3 {
+#our-people h3 {
     border-bottom: 1px solid #ffd700;
     display: block;
     margin: 10px;
