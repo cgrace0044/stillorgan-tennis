@@ -68,6 +68,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - In the 'Our Club' div there is some brief information about the tennis club including the year it was founded, where the club is located, who the club is for and what competitions are on offer.
 - The 'Our Members Enjoy' div contains a short list of the club's facilities.
 - The 'Membership' div contains information about the membership fees together with a button link to the membership page where the user can request more information.
+- The membership table appears is slightly wider on laptops and desktops to make better use of the additional space.
 - The background colour of the button button changes from white to green when clicked. The text changes from black to white when clicked.
 
 ![About section image](docs/readme-images/about-us.webp)
