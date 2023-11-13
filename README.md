@@ -123,7 +123,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 #### CSS
 
 - No errors were found when passing through the official W3C CSS Validator
-- [W3C CSS Validator Results]()
+- [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator)
 
 #### Accessibility
 

@@ -19,7 +19,7 @@ body {
 }
 
 h3 {
-    font-family: roboto slab, sans-serif;
+    font-family: "roboto slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -239,13 +239,17 @@ ul {
 }
 
 .card figcaption {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 1rem;
     text-align: center;
     font-family: "roboto-slab", sans-serif;
 }
 
 /* Gallery page */
+
+#gallery h2 {
+    display: none;
+}
 
 #photos img {
     width: 100%;
@@ -292,7 +296,7 @@ ul {
 }
 
 #enquire-about-membership h2 {
-    font-family: roboto slab, sans-serif;
+    font-family: "roboto slab", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
