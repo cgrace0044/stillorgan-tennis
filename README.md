@@ -193,7 +193,16 @@ No known bugs.
 
 ## Deployment
 
-The project was deployed using GitHub pages.
+The project was deployed using GitHub pages. The method followed to deploy the site was as follows:
+
+- I went to the settings tab in my Github repository.
+- On the left-hand side-bar in the code and automation section I selected Pages.
+- I selected Source - Deploy from branch.
+- The main branch was selected and the folder was set to root.
+- Under branch I clicked save.
+- Back in the code tab in the Environments section I clicked on Github Pages.
+- Finally I clicked on view deployments to see the live site.
+- The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.io/stillorgan-tennis/)
 
 ### Content
 
