@@ -78,7 +78,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The 'Our People' Section contains just one heading called 'Meet Our Coaches'. Three cards are displayed with pictures of the coaches and their job titles.
 - The number of cards displayed per line depends on the width of the screen. On small screens one card displays per line, on tablets and laptops two cards and on desktops three cards.
 
-![Our People image](docs/readme-images/our-people.webp)
+![Our People image](docs/readme-images/our_people.webp)
 
 ### Footer Section
 
