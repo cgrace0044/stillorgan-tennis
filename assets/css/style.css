@@ -116,27 +116,6 @@ main {
     color: #ffffff;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.5rem 1.1rem;
-    cursor: pointer;
-    text-align: center;
-    margin-top: 30px;
-    border: 2px solid #05583b;
-    border-radius: 5px;
-    box-shadow: inset 0 -2px 0 1px #05583b;
-    background-color: #f1f1f1;
-    text-decoration: none;
-    font-family: "roboto slab", sans-serif;
-    color: #3a3a3a;
-}
-
-.btn:hover {
-    background-color: #05583b;
-    /* Green */
-    color: white;
-}
-
 /* About Section */
 #about-section {
     width: 100%;
@@ -195,6 +174,26 @@ main {
 
 ul {
     list-style-type: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1.1rem;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    border: 2px solid #05583b;
+    border-radius: 5px;
+    box-shadow: inset 0 -2px 0 1px #05583b;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    font-family: "roboto slab", sans-serif;
+    color: #3a3a3a;
+}
+
+.btn:hover {
+    background-color: #05583b;
+    color: white;
 }
 
 /* Meet our team section */
@@ -275,7 +274,7 @@ ul {
     padding: 40px 10% 0 10%;
     flex-grow: 1;
     color: #ffffff;
-    font-family: roboto-slab, sans-serif;
+    font-family: "roboto-slab", sans-serif;
     position: relative;
     z-index: 0;
     margin-top: 40px;
@@ -338,7 +337,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #05583b;
-    /* Green */
     color: white;
 }
 
@@ -366,6 +364,7 @@ footer a {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* Gallery */
     #photos {
         column-count: 2;
         column-gap: 0;
