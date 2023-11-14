@@ -100,7 +100,7 @@ main {
 #hero {
     height: 550px;
     width: 100%;
-    background: url(../images/hero-image-stillorgan.webp) no-repeat center center/cover;
+    background: url(../images/hero_image_stillorgan.webp) no-repeat center center/cover;
     position: relative;
 }
 
