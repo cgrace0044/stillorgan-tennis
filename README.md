@@ -170,6 +170,12 @@ Friends and family members were asked to review the site to detect any issues.
 - I converted all images to the WEBP file type and I also compressed all the images.
 - This dramatically improved the performance score.
 
+#### Overlap of images in gallery footer fixed by removing box-shadow
+
+- I originally had a box shadow on the footer on all pages.
+- This made it appear like the images on the gallery page were overlapping the footer.
+- Once I removed the box-shadow on the footer this issue was solved.
+
 ### Known Bugs
 
 No known bugs.
