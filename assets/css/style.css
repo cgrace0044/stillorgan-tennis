@@ -343,7 +343,6 @@ input[type="submit"]:hover {
 /* Footer */
 footer {
     background-color: #05583b;
-    box-shadow: 0 -4px 4px #3a3a3a;
 }
 
 footer a {
