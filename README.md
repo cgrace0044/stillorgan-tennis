@@ -68,8 +68,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - In the 'Our Club' div there is some brief information about the tennis club including the year it was founded, where the club is located, who the club is for and what competitions are on offer.
 - The 'Our Members Enjoy' div contains a short list of the club's facilities.
 - The 'Membership' div contains information about the membership fees together with a button link to the membership page where the user can request more information.
-- The membership table appears is slightly wider on laptops and desktops to make better use of the additional space.
-- The background colour of the button button changes from white to green when clicked. The text changes from black to white when clicked.
+- The membership table appears slightly wider on laptops and desktops to make better use of the additional space.
+- The background colour of the button changes from white to green when clicked. The text changes from black to white when clicked.
 
 ![About section image](docs/readme-images/about-us.webp)
 
@@ -124,7 +124,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 #### CSS
 
 - No errors were found when passing through the official W3C CSS Validator
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcgrace0044.github.io%2Fstillorgan-tennis%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 #### Accessibility
 
