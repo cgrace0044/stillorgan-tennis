@@ -4,7 +4,7 @@ Stillorgan Tennis is a website that aims to provide information about this tenni
 
 The live link can be found here - [Stillorgan Tennis](https://cgrace0044.github.io/stillorgan-tennis/)
 
-![Stillogan Tennis Am I Responsive Image](docs/readme-images/am-i-responsive.webp)
+![Stillogan Tennis Am I Responsive Image](docs/readme-images/docs/readme-images/am_i_responsive.webp)
 
 ## Site Owner Goals
 
