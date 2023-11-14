@@ -104,7 +104,7 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 - The form is surrounded by a neat gold border.
 - The submit button changes from white to green when the form is submitted. The text on the button changes from black to white when clicked.
 
-![Membership page](docs/readme-images/membership-page.webp)
+![Membership page](docs/readme-images/membership_form.webp)
 
 ### Features Left to Implement
 
