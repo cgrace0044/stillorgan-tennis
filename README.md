@@ -128,7 +128,8 @@ The Roboto Slab and Roboto fonts are the main fonts used throughout the whole we
 
 #### Accessibility
 
-- The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+- The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
+- The performance rating is lower on mobile than on desktop. It seems to be because of the quantity of images on the page. All images have been compressed and are in WEBP format for optimization purposes.
 
 ![Lighthouse score](docs/readme-images/lighthouse_score.webp)
 
